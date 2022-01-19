@@ -34,3 +34,5 @@ Client.on("guildMemberAdd", member => { //rôles automatique
         Client.channels.cache.get ("904422659549446154").send("<@" + member.id + "> Bienvenue sur Le Bon Store je te laisse regarder la boutique de jeux.");
         member.roles.add("904400313061081138")
 });
+
+client.login(process.env.token);
